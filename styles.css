@@ -1,0 +1,41 @@
+
+/* Estilos para la prueba */
+h1 {
+  color: #369;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 250%;
+}
+h2, h3 {
+  color: #444;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: lighter;
+}
+body {
+  margin: 2em;
+}
+body, input[type="text"], button {
+  color: #333;
+  font-family: Cambria, Georgia, serif;
+  background-color:gainsboro;
+}
+/*Todo lo demás */
+* {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+table, th, td {
+  width: 40em;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse; /*Unifica todos los bordes de las celdas para convertirlas en una sola linea*/
+
+}
+
+#tablaCambios {
+  background-color: salmon;
+  width: 90em;
+  text-align: center;
+  border: 1px solid black;
+  border-collapse: collapse;
+}

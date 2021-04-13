@@ -1,0 +1,10 @@
+
+<!-- Mostrar todas las propiedades del usuario -->
+<h2>Mis usuarios</h2>
+<ul class="usuarios">
+  <li *ngFor="let usuario of usuarios">
+    <a routerLink="/detalles/{{usuario.id}}">
+      <span class="contenido">{{usuario.id}}</span> {{usuario.name}}
+    </a>
+  </li>
+</ul>

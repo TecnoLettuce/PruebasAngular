@@ -1,0 +1,17 @@
+<h1>{{title}}</h1>
+
+<!-- El dataBindig funciona de tal manera que todo lo que yo escriba como propiedad en el app.components.ts
+      se escribe automaticamente al escribir en el html la clave del elemento que quiero mostrar -->
+
+<!-- Aqui va la barra de navegación, donde el usuario elegirá qué es lo que quiere hacer en la aplicación -->
+
+<nav>
+  <a routerLink="/tablero">Tablero</a>
+  <a routerLink="/usuarios">Usuarios</a>
+</nav>
+
+<!-- Aquí hago la llamada para incorporar el componente creado-->
+<router-outlet></router-outlet>
+<app-messages></app-messages>
+
+
